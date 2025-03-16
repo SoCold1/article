@@ -1,0 +1,4 @@
+def main(private field x, field y):
+    field hash_x = Poseidon(x)
+    assert(hash_x == y)
+    return TRUE
